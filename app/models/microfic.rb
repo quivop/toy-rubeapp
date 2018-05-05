@@ -1,0 +1,2 @@
+class Microfic < ApplicationRecord
+end

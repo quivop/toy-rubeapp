@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @microfic.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @microfic.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_microfic_path(@microfic) %> |
+<%= link_to 'Back', microfics_path %>

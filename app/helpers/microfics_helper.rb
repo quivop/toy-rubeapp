@@ -1,0 +1,2 @@
+module MicroficsHelper
+end
